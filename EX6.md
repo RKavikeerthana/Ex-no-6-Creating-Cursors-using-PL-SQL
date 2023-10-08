@@ -14,15 +14,10 @@ NAME: R.Kavi Keerthana
 Reg.no: 212222100022
 ```
 ```
-CREATE TABLE employd (
-  empid NUMBER,
-  empname VARCHAR(10),
-  dept VARCHAR(10),
-  salary NUMBER
-);
-select * from employd;
-INSERT INTO employd VALUES (1, 'John Doe', 'Sales', 100000);
-INSERT INTO employd VALUES (2, 'Jane Doe', 'Marketing', 120000);
+create table employee1(empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
+insert into employee1 values(1,'sudhiksha','HR',50000);
+insert into employee1 values(2,'mithra','IT',65000);
+insert into employee1 values(3,'kavi','MD',55000);
 ```
 
 ### PLSQL Cursor code
@@ -53,7 +48,7 @@ BEGIN
 END;
 ```
 ### Output:
-![image](https://github.com/RKavikeerthana/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/120431120/5973dba4-52e8-4070-9a42-628fb8738f78)
+![image](https://github.com/RKavikeerthana/Ex-no-6-Creating-Cursors-using-PL-SQL/assets/120431120/7680a299-8782-48e7-a280-ead54db74285)
 
 ### Result:
 The Program has been implemented successfully.
